@@ -1,0 +1,26 @@
+.completed {
+  text-decoration: line-through;
+  color: white;
+}
+
+.todoList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: lightblue;
+  width: 45%;
+  text-align: left;
+  margin: 4px 0;
+  padding-left: 8px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.clear-btn {
+  margin-top: 16px;
+}
